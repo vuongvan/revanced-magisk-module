@@ -3,7 +3,7 @@ logging-to-file = true        # enables logging of every patch process to a sepe
 enable-magisk-update = true   # set this to false if you do not want to receive updates for the module in magisk app
 
 [YouTube-RV]
-enabled = true
+enabled = false
 app-name = "YouTube"
 build-mode = "apk"
 excluded-patches = "'Return YouTube Dislike' 'Premium heading' 'Alternative thumbnails'"
@@ -17,7 +17,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 
 
 [Music-RV]
-enabled = true
+enabled = false
 app-name = "Music"
 rv-brand = "RV"
 build-mode = "apk"
@@ -31,7 +31,7 @@ excluded-patches = "'Amoled' 'Change start page' 'Custom branding icon YouTube M
 #cli-source = "Revanced/revanced-cli"
 
 [Boost-RV]
-enabled = true
+enabled = false
 app-name = "Boost"
 build-mode = "apk"
 version = "auto"
